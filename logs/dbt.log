@@ -1,0 +1,141 @@
+[0m13:00:05.775593 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8B492A120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8B245CF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8B727B890>]}
+
+
+============================== 13:00:05.781554 | adb89a06-49fe-4151-805a-a740a596ce11 ==============================
+[0m13:00:05.781554 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m13:00:05.782227 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': '../', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init', 'log_path': 'logs'}
+[0m13:00:05.782734 [debug] [MainThread]: Tracking: tracking
+[0m13:00:17.455493 [debug] [MainThread]: Starter project path: C:\Users\Mathe\Desktop\Estudos\Workshop\Workshop-DBT-Monitoramento-Commodities\.venv\Lib\site-packages\dbt\include\starter_project
+[0m13:00:17.498133 [info ] [MainThread]: Setting up your profile.
+[0m13:01:27.399670 [info ] [MainThread]: Profile dbt_commodities written to ..\profiles.yml using target's profile_template.yml and your supplied values.
+[0m13:01:27.402681 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m13:01:27.403330 [info ] [MainThread]: dbt version: 1.13.0-b1
+[0m13:01:27.403858 [info ] [MainThread]: python version: 3.14.10
+[0m13:01:27.404347 [info ] [MainThread]: python path: C:\Users\Mathe\Desktop\Estudos\Workshop\Workshop-DBT-Monitoramento-Commodities\.venv\Scripts\python.exe
+[0m13:01:27.404927 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m13:01:27.447373 [info ] [MainThread]: Using profiles dir at ../
+[0m13:01:27.447939 [info ] [MainThread]: Using profiles.yml file at ../profiles.yml
+[0m13:01:27.448349 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Mathe\Desktop\Estudos\Workshop\Workshop-DBT-Monitoramento-Commodities\dbt_commodities\dbt_project.yml
+[0m13:01:27.449746 [info ] [MainThread]: adapter type: postgres
+[0m13:01:27.450182 [info ] [MainThread]: adapter version: 1.11.0
+[0m13:01:27.565370 [info ] [MainThread]: Configuration:
+[0m13:01:27.565924 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m13:01:27.566355 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m13:01:27.566781 [info ] [MainThread]: Required dependencies:
+[0m13:01:27.567227 [debug] [MainThread]: Executing "git --help"
+[0m13:01:27.617408 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m13:01:27.617888 [debug] [MainThread]: STDERR: "b''"
+[0m13:01:27.618239 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m13:01:27.618701 [info ] [MainThread]: Connection:
+[0m13:01:27.619152 [info ] [MainThread]:   host: localhost
+[0m13:01:27.619582 [info ] [MainThread]:   port: 5432
+[0m13:01:27.620002 [info ] [MainThread]:   user: postgres
+[0m13:01:27.620421 [info ] [MainThread]:   database: dbsales
+[0m13:01:27.620858 [info ] [MainThread]:   schema: public
+[0m13:01:27.621283 [info ] [MainThread]:   connect_timeout: 10
+[0m13:01:27.621704 [info ] [MainThread]:   role: None
+[0m13:01:27.622127 [info ] [MainThread]:   search_path: None
+[0m13:01:27.622546 [info ] [MainThread]:   keepalives_idle: 0
+[0m13:01:27.622969 [info ] [MainThread]:   sslmode: None
+[0m13:01:27.623373 [info ] [MainThread]:   sslcert: None
+[0m13:01:27.623763 [info ] [MainThread]:   sslkey: None
+[0m13:01:27.624193 [info ] [MainThread]:   sslrootcert: None
+[0m13:01:27.624633 [info ] [MainThread]:   application_name: dbt
+[0m13:01:27.625076 [info ] [MainThread]:   autocommit: False
+[0m13:01:27.625488 [info ] [MainThread]:   retries: 1
+[0m13:01:27.626118 [info ] [MainThread]: Registered adapter: postgres=1.11.0
+[0m13:01:27.916272 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m13:01:29.950119 [debug] [MainThread]: Using postgres connection "debug"
+[0m13:01:29.950478 [debug] [MainThread]: On debug: select 1 as id
+[0m13:01:29.950761 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:01:30.072470 [debug] [MainThread]: SQL status: SELECT 1 in 0.122 seconds
+[0m13:01:30.073360 [debug] [MainThread]: On debug: Close
+[0m13:01:30.073716 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m13:01:30.074176 [info ] [MainThread]: [32mAll checks passed![0m
+[0m13:01:30.074667 [info ] [MainThread]: Your new dbt project "dbt_commodities" was created!
+Initialized new project in C:\Users\Mathe\Desktop\Estudos\Workshop\Workshop-DBT-Monitoramento-Commodities\dbt_commodities\dbt_commodities
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:01:30.075722 [debug] [MainThread]: Command `dbt init` succeeded at 13:01:30.075599 after 84.44 seconds
+[0m13:01:30.076050 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m13:01:30.076390 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8B7216D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8B768EB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8B5534380>]}
+[0m13:01:30.076813 [debug] [MainThread]: Flushing usage events
+[0m13:01:31.596256 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:50:09.485126 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027305E0D6A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002730395CE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002730880B9D0>]}
+
+
+============================== 17:50:09.489302 | 9b80ff39-75fa-4c42-a7b0-aaffb770d94d ==============================
+[0m17:50:09.489302 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m17:50:09.489951 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': '../', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m17:50:09.490309 [debug] [MainThread]: Tracking: tracking
+[0m17:50:09.490754 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Mathe\Desktop\Estudos\Workshop\Workshop-DBT-Monitoramento-Commodities\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:50:09.491713 [debug] [MainThread]: Command `dbt run` failed at 17:50:09.491600 after 0.20 seconds
+[0m17:50:09.492065 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000273087796E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002730879AD50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027308851260>]}
+[0m17:50:09.492457 [debug] [MainThread]: Flushing usage events
+[0m17:50:10.329433 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:37:14.816040 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE2D1A56A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE2ACDCE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE2FB9F9D0>]}
+
+
+============================== 18:37:14.819737 | 9de95e02-ea31-4058-93f3-86aa59b80149 ==============================
+[0m18:37:14.819737 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m18:37:14.820377 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': '../', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt seed', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m18:37:14.820762 [debug] [MainThread]: Tracking: tracking
+[0m18:37:14.821207 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Mathe\Desktop\Estudos\Workshop\Workshop-DBT-Monitoramento-Commodities\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:37:14.822161 [debug] [MainThread]: Command `dbt seed` failed at 18:37:14.822049 after 0.19 seconds
+[0m18:37:14.822506 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE2FB0D6E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE2FB3AD50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE2FBED260>]}
+[0m18:37:14.822866 [debug] [MainThread]: Flushing usage events
+[0m18:37:15.685806 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:37:40.309995 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A5D05956A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A5CE0DCE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A5D2F8F9D0>]}
+
+
+============================== 18:37:40.314272 | 1f9e9918-6be7-43ee-ad69-700b2b5102f6 ==============================
+[0m18:37:40.314272 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m18:37:40.315033 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': '../', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m18:37:40.315503 [debug] [MainThread]: Tracking: tracking
+[0m18:37:40.316041 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Mathe\Desktop\Estudos\Workshop\Workshop-DBT-Monitoramento-Commodities\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:37:40.317147 [debug] [MainThread]: Command `dbt run` failed at 18:37:40.317018 after 0.15 seconds
+[0m18:37:40.317526 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A5D2EFD6E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A5D2F2AD50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A5D2FDD260>]}
+[0m18:37:40.317907 [debug] [MainThread]: Flushing usage events
+[0m18:37:40.904574 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:40:58.619746 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208CC2656A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208C9DACE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208CEC5F9D0>]}
+
+
+============================== 18:40:58.623583 | 17d869b9-22b5-4754-ba20-d46481b7080f ==============================
+[0m18:40:58.623583 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m18:40:58.624253 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': '../', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt seed --full-refresh', 'log_path': 'logs'}
+[0m18:40:58.624614 [debug] [MainThread]: Tracking: tracking
+[0m18:40:58.625070 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Mathe\Desktop\Estudos\Workshop\Workshop-DBT-Monitoramento-Commodities\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:40:58.626082 [debug] [MainThread]: Command `dbt seed` failed at 18:40:58.625942 after 0.19 seconds
+[0m18:40:58.626464 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208CEBCD6E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208CEBFAD50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208CECAD260>]}
+[0m18:40:58.626847 [debug] [MainThread]: Flushing usage events
+[0m18:40:59.302297 [debug] [MainThread]: An error was encountered while trying to flush usage events
